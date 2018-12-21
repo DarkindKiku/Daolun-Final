@@ -1,0 +1,3 @@
+
+<view>在以下时间时有人进入过宿舍:</view>
+<view wx:for="{{list}}" wx:if="{{item.value==1}}">{{item.at}}</view>
